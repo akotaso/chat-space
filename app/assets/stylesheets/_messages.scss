@@ -40,7 +40,6 @@ $rightgray:#999999;
   }
 }
 
-// ーーーーサイドバーヘッダー
 .sidebar__topitems {
   height: 20px;
   width: 260px;
@@ -66,7 +65,6 @@ $rightgray:#999999;
   }
 }
 
-// ーーーーサイドバーグループリスト
 .sidebar__grouplist{
   color: $white;
   font-weight: bold;
@@ -80,7 +78,6 @@ $rightgray:#999999;
   }
 }
 
-// ーーーーメインチャットヘッダー
 .current__group{
   display: flex;
   justify-content: space-between;
@@ -110,7 +107,6 @@ $rightgray:#999999;
   }
 }
 
-// ーーーーメインチャットメッセージ一覧
 .message{
   padding-top: 35px;
   padding-left: 40px;
@@ -134,7 +130,6 @@ $rightgray:#999999;
   }
 }
 
-// ーーーーメインチャットメッセージフォーム
 form{
   display: flex;
   padding: 20px 40px;
