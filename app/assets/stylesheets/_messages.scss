@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+$white:#ffffff;
+$darkgray:#333333;
+$rightgray:#999999;
+
 .sidebar {
   width: 300px;
   height: 100vh;
@@ -23,7 +27,7 @@
   width: calc(100vw - 300px);
   height: 100vh;
   &__groupinfo{
-    background-color: #ffffff;
+    background-color: $white;
     height: 100px;
   }
   &__messagelist{
@@ -46,14 +50,14 @@
   line-height: 20px;
   &__name{
     font-size: 16px;
-    color: #ffffff;
+    color: $white;
     font-weight: bold;
   }
   &__icons{
     display: flex;
     li{
       a{
-        color: #ffffff;
+        color: $white;
       }
       .edit--icon{
         padding-right: 5px;
@@ -64,7 +68,7 @@
 
 // ーーーーサイドバーグループリスト
 .sidebar__grouplist{
-  color: #ffffff;
+  color: $white;
   font-weight: bold;
   &__name {
     font-size: 15px;
@@ -84,11 +88,11 @@
   padding-top: 35px;
   &__name{
     font-size: 20px;
-    color: #333333;
+    color: $darkgray;
   }
   &__member__list{
     margin-top: 15px;
-    color: #999999;
+    color: $rightgray;
     font-size: 12px;
     display: flex;
   }
@@ -111,13 +115,13 @@
   padding-top: 35px;
   padding-left: 40px;
   &__name{
-    color: #333333;
+    color: $darkgray;
     font-size: 16px;
     display: flex;
     font-weight: bold;
   }
   &__date{
-    color: #999999;
+    color: $rightgray;
     font-size: 12px;
     padding-left: 12px;
     font-weight: normal;
@@ -160,7 +164,7 @@ form{
     width: 100px;
     padding: 0 30px;
     background-color: #38aef0;
-    color: white;
+    color: $white;
     cursor: pointer;
   }
 }
