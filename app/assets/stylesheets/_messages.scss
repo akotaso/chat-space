@@ -130,9 +130,11 @@ $rightgray:#999999;
   }
 }
 
-form{
+.new__message{
   display: flex;
   padding: 20px 40px;
+}
+form{
   .input__box{
     width: 100%;
     position: relative;
