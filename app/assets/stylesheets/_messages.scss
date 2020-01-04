@@ -68,6 +68,12 @@ $rightgray:#999999;
 .sidebar__grouplist{
   color: $white;
   font-weight: bold;
+  &__group {
+    a{
+      color: $white;
+      text-decoration: none;
+    }
+  }
   &__name {
     font-size: 15px;
     padding: 20px 20px 5px 20px;
