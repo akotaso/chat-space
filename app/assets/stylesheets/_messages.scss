@@ -33,11 +33,19 @@ $rightgray:#999999;
   &__messagelist{
     background-color: #fafafa;
     height: calc(100vh - 100px - 90px);
+    overflow: scroll;
+    
   }
   &__messageform{
     background-color: #d2d2d2;
     height: 90px;
   }
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .sidebar__topitems {
@@ -137,12 +145,14 @@ $rightgray:#999999;
 }
 
 .new__message{
-  display: flex;
-  padding: 20px 40px;
-}
-form{
+   padding: 20px 40px;
+   .new_message{
+     display: flex;
+   }
+  }
+
   .input__box{
-    width: 100%;
+    display: flex;
     position: relative;
     &__text{
       height: 50px;
@@ -170,4 +180,4 @@ form{
     color: $white;
     cursor: pointer;
   }
-}
+
