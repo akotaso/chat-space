@@ -68,8 +68,6 @@ $(function(){
         });
         $('.mainchat__messagelist').append(insartHTML);
         $('.mainchat__messagelist').animate({ scrollTop: $('.mainchat__messagelist')[0].scrollHeight});
-        $('form')[0].reset();
-        $('.submit__btn').prop('disabled', false);
       }
     })
     .fail(function(){
