@@ -1,27 +1,12 @@
-# README
+<img width="1429" alt="chat-space01" src="https://user-images.githubusercontent.com/59213808/76144183-3ad1bd00-60c1-11ea-84ad-b48efb0932ba.png">
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Chat-Space
+グループチャットアプリケーション
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# 機能
+* 非同期通信
+* 自動更新
+* インクリメンタルサーチ機能
 
 # chat-space DB設計
 ## usersテーブル
